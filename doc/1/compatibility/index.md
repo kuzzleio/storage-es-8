@@ -13,12 +13,13 @@ description: Versions and capabilities of the Elasticsearch 8 storage driver
 |                      |                                                                     |
 | -------------------- | ------------------------------------------------------------------- |
 | Kuzzle               | 2.61 or later, within Kuzzle 2 (`kuzzleVersion` in `manifest.json`) |
-| Elasticsearch        | 8.x (tested on 8.17.1)                                              |
+| Elasticsearch        | 8.x (tested on 8.0.1 and 8.19.23)                                   |
 | Elasticsearch client | `@elastic/elasticsearch` 8.17.1                                     |
 | Node.js              | 22.12 or later                                                      |
 
 At startup, Kuzzle reads the driver's `manifest.json` before loading it, and does not start when its version is out of
-the `kuzzleVersion` range. The driver then refuses an Elasticsearch cluster older than 8.0.0.
+the `kuzzleVersion` range. The driver then refuses an Elasticsearch cluster outside 8.x (older than 8.0.0, or 9.0.0 and
+later), and an OpenSearch cluster.
 
 Kuzzle 2 pins the version of this driver: a new driver version reaches you with a Kuzzle release. Kuzzle 3 drops it from its dependencies, see [Towards Kuzzle 3](/core/2/guides/kuzzle-3).
 

@@ -50,6 +50,7 @@ npm install kuzzle-storage-es-8@<the version npm ls shows>
 ```
 
 With `driver` set, `majorVersion` is ignored, and Kuzzle logs a warning if both are set: remove `majorVersion`.
+The same works with the `kuzzle_services__storageEngine__driver` environment variable.
 
 ## Check
 
