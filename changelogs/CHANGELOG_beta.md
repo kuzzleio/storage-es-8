@@ -1,3 +1,9 @@
+## [1.2.0-beta.1](https://github.com/kuzzleio/storage-es-8/compare/v1.1.1...v1.2.0-beta.1) (2026-11-23)
+
+### Features
+
+* report the re-indexation task id from updateCollection ([98c6c51](https://github.com/kuzzleio/storage-es-8/commit/98c6c511f9f1ed109870ad08a002e1b326b989d1))
+
 ## [1.1.1-beta.1](https://github.com/kuzzleio/storage-es-8/compare/v1.1.0...v1.1.1-beta.1) (2026-11-12)
 
 ### Bug Fixes
