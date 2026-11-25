@@ -1,3 +1,13 @@
+## [1.3.0](https://github.com/kuzzleio/storage-es-8/compare/v1.2.0...v1.3.0) (2026-11-25)
+
+### Features
+
+* **search:** allow min_score and track_scores, add search.additionalBodyKeys ([40f6c60](https://github.com/kuzzleio/storage-es-8/commit/40f6c60919950dee890bdb69e7569ed42e06c49b))
+
+### Bug Fixes
+
+* **deps:** declare the kuzzle peer dependency optional ([4f33726](https://github.com/kuzzleio/storage-es-8/commit/4f3372613bb060380e8a692b60e329694f923535))
+
 ## [1.2.0](https://github.com/kuzzleio/storage-es-8/compare/v1.1.1...v1.2.0) (2026-11-23)
 
 ### Features
